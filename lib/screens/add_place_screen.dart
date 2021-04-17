@@ -35,13 +35,16 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
               ),
             ),
           ),
-          RaisedButton.icon(
-            onPressed: () {},
-            icon: Icon(Icons.add),
-            label: Text('Add Place'),
-            elevation: 0,
-            materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-            color: Theme.of(context).accentColor,
+          Container(
+            height: 50,
+            child: RaisedButton.icon(
+              onPressed: () {},
+              icon: Icon(Icons.add),
+              label: Text('Add Place'),
+              elevation: 0,
+              materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              color: Theme.of(context).accentColor,
+            ),
           ),
         ],
       ),
